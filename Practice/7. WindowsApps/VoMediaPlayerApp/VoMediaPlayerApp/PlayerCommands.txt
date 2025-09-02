@@ -1,0 +1,8 @@
+﻿Default video
+Open
+Play
+Pause
+Stop
+Clear
+Exit
+Wake up
