@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertEachDigitOfANumberToWord", "ConvertEachDigitOfANumberToWord\ConvertEachDigitOfANumberToWord.csproj", "{64ACE6CE-8C67-40B3-8641-157D94A28473}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64ACE6CE-8C67-40B3-8641-157D94A28473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64ACE6CE-8C67-40B3-8641-157D94A28473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64ACE6CE-8C67-40B3-8641-157D94A28473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64ACE6CE-8C67-40B3-8641-157D94A28473}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA0DEE43-E13B-4CBC-BD58-33C9B295BA93}
+	EndGlobalSection
+EndGlobal

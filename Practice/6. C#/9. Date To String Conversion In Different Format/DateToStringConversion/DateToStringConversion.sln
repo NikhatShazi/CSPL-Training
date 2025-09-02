@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateToStringConversion", "DateToStringConversion\DateToStringConversion.csproj", "{9376153A-2D66-47F9-92C0-EC86AFF993D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9376153A-2D66-47F9-92C0-EC86AFF993D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9376153A-2D66-47F9-92C0-EC86AFF993D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9376153A-2D66-47F9-92C0-EC86AFF993D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9376153A-2D66-47F9-92C0-EC86AFF993D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09F09E00-B20B-46BC-9F08-7888BEE82F84}
+	EndGlobalSection
+EndGlobal
