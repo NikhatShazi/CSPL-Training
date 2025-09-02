@@ -1,0 +1,45 @@
+EMPLOYEE TABLE:
+
+EMPNAME	DEPTNO	SALARY	JOB
+AKIL	1	30000	MANAGER
+SHAHID	4	20000	ASSISTANT MNGR
+MAHIR	3	25000	PROGRAMMER
+NAMY	2	22000	JR PROGRAMMMER
+
+
+CarListPrices Table:
+
+car_make	car_model	car_type	car_price
+Fordf	Mondeno	premium	18200.00
+Renault	Fuego	sport	16500.00
+Citrion	Cacuts	premium	19000.00
+Ford	Falcon	low cost	8990.00
+Ford	Galaxy	standard	12400.00
+Renault	Megane	standard	14300.00
+Citrion	Picasso	premium	23400.00
+
+Department Table:
+
+Id	DName	Salary	Gender	DepartmentId
+1	Steffan	82000	Male	3
+3	Antonio	25000	male	1
+4	Marco	47000	Male	2
+5	Eliana	46000	Female	3
+6	Peter	62000	Male	3
+
+
+
+Order Table:
+ORDER_ID	ITEM_NAME
+290	CAMERA
+355	SMART PHONE
+
+ORDER_ID
+199
+ITEM_NAME
+TELEVISION
+ORDER_ID
+355
+ITEM_NAME
+SMART PHONE
+SMART PHONE
