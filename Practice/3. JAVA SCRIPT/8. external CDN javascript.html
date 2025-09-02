@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("button").click(function () {
+         // $("h2").hide(); 
+          $("p").hide();
+        });
+      });
+    </script>
+</head>
+<body>
+    <h2>This is external cdn javascript file</h2>
+  
+    <p style="text-align: center">This is a paragraph.<br>
+      <b>What is CDN?</b><br>
+      A CDN is a Content Delivery Network. These are file hosting services for multiple versions of common libraries.<br>
+      They are usually highly performant and offer location cached files so no matter where your users are, they receive the files from geo locations close to them.<br>
+      This can make your application faster than hosting files yourself.
+    </p>
+ 
+    <button>Click to hide the text</button>
+    
+</body>
+</html>

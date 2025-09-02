@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript Strings</h1>
+<h2>Example 1: The length Property</h2>
+
+<p>The length of the string is:</p>
+<p id="demo"></p>
+<script>
+let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+document.getElementById("demo").innerHTML = text.length;
+</script>
+
+<h2>Example 2: Replace </h2>
+<p>Replace all occurrences of "Microsoft" with "W3Schools" in the paragraph</p>
+<button onclick="myFunction()">Rplace text</button>
+
+<p id="demo1">Please visit Microsoft and Microsoft!.Microsoft is well known IT company </p>
+
+<script>
+    function myFunction()
+    {
+    let txt= document.getElementById("demo1").innerHTML;
+    document.getElementById("demo1").innerHTML= txt.replace(/Microsoft/g,"W3Schools");
+    }
+</script>
+
+</body>
+</html>

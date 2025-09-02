@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    //example 1
+    <p id="myP">I am a paragraph. i am copied by id="demo"</p>
+    <p>Get the HTML content of an element with id="myP":</p>
+    <p id="demo1"></p>
+
+    <script>
+        let html = document.getElementById("myP").innerHTML;
+        document.getElementById("demo1").innerHTML = html;
+    </script>
+
+
+//example 2
+<p id="demo2" onclick="myFunction2()">Click me to change my HTML content (innerHTML).</p>
+
+<script>
+    function myFunction2() {
+    document.getElementById("demo2").innerHTML = "I have changed!";
+    }
+</script>
+
+
+//Example 3
+<p id="demo3" >Click the button to delete my HTML content (innerHTML).</p>
+<button onclick="myFunction3()">delete</button>
+
+<script>
+    function myFunction3() {
+    document.getElementById("demo3").innerHTML = "";
+    }
+</script>
+
+<p id="demo4"> Erase me. I am a paragraph xyz</p>
+<button onclick="myfun()">Erase</button>
+<script>
+    function myfun(){
+    document.getElementById("demo4").innerHTML="";
+    }
+    </script>
+
+</body>
+</html>

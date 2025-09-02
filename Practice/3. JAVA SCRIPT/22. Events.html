@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>An HTML event can be something the browser does, or something a user does.</h2>
+    <p>An HTML web page has finished loading.<br>
+        An HTML input field was changed.<br>
+        An HTML button was clicked. (button element, with onclick event)
+    </p>
+    <p id="demo"></p>
+    <button onclick="document.getElementById('demo').innerHTML=Date()"> Show date</button>
+    <button onclick="this.innerHTML=Date()">The time is?</button>
+
+</body>
+</html>

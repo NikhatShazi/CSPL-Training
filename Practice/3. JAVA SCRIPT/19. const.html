@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2> Example 1: JavaScript const</h2>
+    <p>Variables defined with const cannot be Redeclared.<br>
+        Variables defined with const cannot be Reassigned. <br>
+        Variables defined with const have Block Scope.</p>
+
+        <p id="demo"></p>
+        
+        <script>
+        try {
+          const PI = 3.141592653589793;
+          PI = 3.14; //Not allowed. variable PI can not be re assigned.
+        }
+        catch (err) {
+          document.getElementById("demo").innerHTML = err;
+        }
+        </script>
+
+         <p id="demo3"></p>
+         <script>
+           const PI = 3.141592653589793;
+           document.getElementById("demo3").innerHTML = "Value of PI is=" +PI;
+         </script>
+
+ <h2>Example 2: You can change the elements of a constant array:</h2>
+<p id="demo1"></p>
+
+<script>
+// Create an Array:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Change an element at arry[0] i.e. saab with Toyota.
+cars[0] = "Toyota";
+
+// Add an element:
+cars.push("Audi");
+
+// Display the Array:
+document.getElementById("demo1").innerHTML  = cars; 
+</script>
+
+<h2>Example3: You can NOT reassign a constant array</h2>
+<p id="demo2"></p>
+
+<script>
+try {
+  const cars = ["Saab", "Volvo", "BMW"];
+  cars = ["Toyota", "Volvo", "Audi"];
+}
+catch (err) {
+  document.getElementById("demo2").innerHTML = err;
+}
+</script>
+</body>
+</html>

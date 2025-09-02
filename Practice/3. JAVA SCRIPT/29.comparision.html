@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<h1>JavaScript Comparison</h1>
+<h2>The || Operator (Logical OR)</h2>
+<p>The || returns true if one or both expressions are true, otherwise it returns false.</p>
+
+<p id="demo"></p>
+<script>
+let x = 6;
+let y = 3;
+
+document.getElementById("demo").innerHTML = 
+(x == 5 || y == 5) + "<br>" + 
+(x == 6 || y == 0) + "<br>" + 
+(x == 0 || y == 3) + "<br>" +
+(x == 6 || y == 3);
+</script>
+
+<p>Example2: Comparision operator</p>
+    <input id="age" value="18" />
+    <button onclick="myFunction()"> click me</button>
+    <p id="demo1"></p>
+    <script>
+        function myFunction() {
+          let age = document.getElementById("age").value;
+          let voteable = (age < 18) ? "Too young to vote":"Old enough to vote";
+          document.getElementById("demo1").innerHTML = voteable ;
+        }
+    </script>
+        
+</body>
+</html>

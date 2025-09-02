@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript Data Types</h2>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+<script>
+
+    x = 5;         // Now x is a Number
+    y = "John";    // Now y is a String
+
+    document.getElementById("demo").innerHTML = x;
+    document.getElementById("demo2").innerHTML = y;
+</script>
+
+<h2>Example 2: You can change the elements of a constant array:</h2>
+<p id="demo1"></p>
+
+<script>
+// Create an Array:
+const cars = ["Saab", "Volvo", "BMW"];
+
+// Change an element at arry[0] i.e. saab with Toyota.
+cars[0] = "Toyota";
+
+// Add an element:
+cars.push("Audi");
+
+// Display the Array:
+document.getElementById("demo1").innerHTML  = cars; 
+</script>
+
+<h2>Example3: Booleans can have two values: true or false:</h2>
+<p id="demo3"></p>
+<script>
+let x = 5;
+let y = 5;
+let z = 6;
+
+document.getElementById("demo3").innerHTML =(x==y)+"<br>"+ (y==z);
+</script>
+
+<h2>Example4: Local variables & type of.</h2>
+<p>Local variables can only be accessed from within the function.<br>
+   Outside myFunction() carName is undefined.
+</p>
+<p id="fun1"></p>
+<p id="fun2"></p>
+<script>
+    myfunction();
+    function myfunction()
+    {
+        let carNm="I20";
+        document.getElementById("fun1").innerHTML =typeof carNm + " " + carNm;
+    }
+    document.getElementById("fun2").innerHTML =typeof carNm;
+</script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript Numbers</h2>
+    <p>If you add two numbers, the result will be a number:</p>
+    <p id="demo1"></p>
+
+<script>
+    let a=100;
+    let b=10;
+    let c= a+b;
+    document.getElementById("demo1").innerHTML=c;
+</script>
+
+<p>JavaScript will try to convert strings to numbers when subtracting:</p>
+
+<p id="demo3"></p>
+
+<script>
+let p = "100";
+let q = "10";
+let r = p - q;   
+document.getElementById("demo3").innerHTML = r;
+</script>
+ 
+<p>JavaScript will NOT convert strings to numbers when adding: JavaScript uses the + operator to concatenate the strings.</p>
+<p id="demo"></p>
+<script>
+let x = "100";
+let y = "10";
+let z = x + y;   
+document.getElementById("demo").innerHTML = z;
+</script>
+</body>
+</html>
