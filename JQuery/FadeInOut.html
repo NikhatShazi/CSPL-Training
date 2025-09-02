@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#div1").fadeToggle(3000);
+    $("#div2").fadeToggle("slow");
+    $("#div3").fadeToggle();
+  });
+});
+</script>
+</head>
+<body>
+
+<p>Demonstrate fadeToggle() with different speed parameters.</p>
+
+<button class="btn btn-primary" style="margin-left:10px">Click to fade in/out boxes</button><br><br>
+
+<div id="div1" style="margin-left:50px; width:80px; height:80px; background-color:rgb(243, 130, 130); text-align: center;">very slow</div>
+<br>
+<div id="div2" style="margin-left:50px; width:80px; height:80px; background-color:rgb(182, 235, 182); text-align: center;">slow</div>
+<br>
+<div id="div3" style="margin-left:50px; width:80px; height:80px; background-color:rgb(125, 125, 180);text-align: center;">ok</div>
+
+</body>
+</html>

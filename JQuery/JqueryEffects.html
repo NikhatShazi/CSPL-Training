@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+  .panel-blue {
+    background-color: lightblue;
+  }
+  .panel-green {
+    background-color: lightgreen;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+</style>
+
+<script>
+  $(document).ready(function(){
+    $("#hide").click(function(){
+      $("p").hide();
+    });
+    $("#show").click(function(){
+      $("p").show();
+    });
+  });
+  </script>
+
+<div class="panel panel-blue">
+  <p>If you click on the "Hide" button, I will disappear.</p>
+  <p>Because time is valuable, we deliver quick and easy learning.</p>
+  <p>At W3Schools, you can study everything you need to learn, in an accessible and handy format.</p>
+
+</div>
+</head>
+<body>
+
+<button id="hide" class=" btn btn-primary">Hide</button>
+<button id="show" class="btn btn-success">Show</button>
+
+</body>
+</html>
