@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".btn1").click(function(){
+                $("p").fadeOut();
+            });
+           
+            $(".btn2").click(function(){
+                $("p").fadeIn();
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function(){
+            $(".btn3").click(function(){
+                $("#p1").fadeTo(1000, 0.4);
+            });
+        });
+
+        $(document).ready(function(){
+            $(".btn4").click(function(){
+                $("p").slideToggle();
+            });
+        });
+    </script>
+
+</head>
+<body>
+    
+    
+    <p>This is a paragraph1</p>
+    <p>This is a paragraph2</p>
+   
+    <button class="btn1">fade out </button>
+    <button class="btn2">fade in</button><br><br>
+   
+    <button class="btn4">Toggle slideUp() and slideDown()</button>
+    <p id="p1"> This is second paragraph</p>
+    <button class="btn3">Gradually change the opacity of the second paragraph</button>
+</body>
+</html>

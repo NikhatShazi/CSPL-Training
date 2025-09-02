@@ -1,0 +1,7 @@
+<h2>jQuery load() Method</h2>
+<p>The ajax() method is used to perform an AJAX (asynchronous HTTP) request.<br>
+All jQuery AJAX methods use the ajax() method.<br> This method is mostly used for requests,<br>
+where the other methods cannot be used.</p>
+<h2>Syntax</h2>
+<p>$.ajax({name:value, name:value, ... })
+The parameters specifies one or more name/value pairs for the AJAX request.</p>

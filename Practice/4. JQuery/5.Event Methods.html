@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<h2 id="h">Event Methods</h2>
+<script>
+    $(Document).ready(function(){
+        $("#h").mouseover(function(){
+            alert("You entered in H2");
+        });
+    });
+</script>
+
+<script>
+    $(document).ready(function(){
+    $("p").click(function(){
+        $(this).hide();
+    });
+    });
+</script>
+<p>If you click on me, I will disappear.</p>
+<p>Click me away!</p>
+<p>Click me too!</p>
+
+
+
+Enter Full Name:<input type="text" name="fullname"><br><br>
+Enter E-mail id:<input type="text" name="email"><br><br>
+Enter password:<input type="password" name="email"><br><br>
+<input type="submit" >
+
+<script>
+    $(Document).ready(function(){
+    $("input").focus(function(){
+        $(this).css("background-color","grey");
+    });
+    $("input").blur(function(){
+        $(this).css("background-color", "skyblue");
+    });
+    }); 
+</script>
+</script>
+</head>
+<body>
+
+
+</body>
+</html>
